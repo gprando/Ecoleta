@@ -1,17 +1,9 @@
 import express from 'express';
-import { json } from 'body-parser';
+import routes from './routes';
 
 const app = express();
 
-app.use(json())
-
-app.get('/users', (req, res) => {
-  const user = {
-    name: 'gabriel',
-    idade: 22,
-  }
-  console.log('listagem de usuários')
-  return res.json(user);
-});
+app.use(express.json());
+app.use(routes);
 
 app.listen(3333);
