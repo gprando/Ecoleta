@@ -2,12 +2,12 @@ import knex from '../database/connection';
 import { Request, Response } from 'express';
 
 class PointController {
-  async index(req: Request, res: Response) {
-    const { city, uf, items } = req.params;
+  async index(req: Request, res: Response): Promise<Response> {
+    const { city, uf, items } = req.query
 
     const parsedItems = String(items)
       .split(',')
-      .map(item => Number(item.trim()));
+      .map(item => Number(item.trim()))
 
     const points = await knex('points')
       .join('point_items', 'points.id', '=', 'point_items.point_id')
@@ -17,7 +17,7 @@ class PointController {
       .distinct()
       .select('points.*')
 
-    return res.json(points);
+    return res.json(points)
   }
 
 
@@ -54,7 +54,7 @@ class PointController {
     // portando se der erro ao criar a primeira, a segunda não executa
 
     const point = {
-      image: 'image-fake',
+      image: 'https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
       name,
       email,
       whatsapp,
