@@ -35,12 +35,14 @@ Ecoleta é um projeto onde facilita a informação de pontos de coleta de rísid
 
 <h1 align="center"><img align="center" src="./frontend/src/assets/ecoleta.png" alt="Ecoleta Web"  width="300"></img></h1>
 
-### Instalação - Backend
+## Instalação - Projeto
 Clone o projeto em seu computador.
 
 ```bash
-git clone https://github.com/gprando/NLW_1
+git clone https://github.com/gprando/NLW_01
 ```
+
+## Backend
 Para instalar as dependências e executar o **Servidor** (modo desenvolvimento) execute:
 ```bash
 cd backend
@@ -48,7 +50,7 @@ yarn
 yarn dev
 ```
 
-### Instalação - Frontend
+### Frontend
 Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
 cd frontend
