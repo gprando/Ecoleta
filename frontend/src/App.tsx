@@ -1,8 +1,10 @@
 import React from 'react';
 
+import Home from './Pages/Home';
+
 function App() {
   return (
-    <h1>Hellow world</h1>
+    <Home />
   );
 }
 
