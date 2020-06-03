@@ -10,8 +10,8 @@ Next Level Week 01 - Ecoleta
   <a aria-label="Prando" href="https://github.com/gprando/">
     <img src="https://img.shields.io/github/followers/gprando?style=social"></img>
   </a>
-    <img src="https://img.shields.io/github/last-commit/gprando/NLW_1"></img>
-    <img src="https://img.shields.io/github/languages/count/gprando/NLW_1"></img>
+    <img src="https://img.shields.io/github/last-commit/gprando/NLW_01"></img>
+    <img src="https://img.shields.io/github/languages/count/gprando/NLW_01"></img>
 </p>
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
