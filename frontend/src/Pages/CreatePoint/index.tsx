@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Map, TileLayer, Marker } from 'react-leaflet';
@@ -7,7 +7,23 @@ import './styles.css';
 
 import logo from '../../assets/logo.svg';
 
+import api from '../../services/api';
+
+interface Item {
+  id: number;
+  title: string;
+  image_url: string;
+}
+
 const CreatePoint: React.FC = () => {
+  const [items, setItems] = useState<Item[]>([]);
+
+  useEffect(() => {
+    api.get('items').then(res => {
+      setItems(res.data);
+    })
+  }, []);
+
   return (
     <div id="page-create-point">
       <header>
@@ -89,30 +105,15 @@ const CreatePoint: React.FC = () => {
           </legend>
 
           <ul className="items-grid">
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="óleo" />
-              <span>Óleo de cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="óleo" />
-              <span>Óleo de cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="óleo" />
-              <span>Óleo de cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="óleo" />
-              <span>Óleo de cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="óleo" />
-              <span>Óleo de cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="óleo" />
-              <span>Óleo de cozinha</span>
-            </li>
+
+            {items.map(item => (
+              <li>
+                <img src={item.image_url} alt={item.title} />
+                <span>{item.title}</span>
+              </li>
+            ))}
+
+
           </ul>
         </fieldset>
         <button type="submit" >Cadastrar ponto</button>
