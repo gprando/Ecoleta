@@ -1,11 +1,18 @@
 <h1 align="center">
-  <img src="./frontend/src/assets/logo.svg" alt="NLW" width="700">
+  <img src="./frontend/src/assets/logo.svg" alt="NLW" width="400">
 <br>
 Next Level Week 01 - Ecoleta
 </h1>
 
 <p align="center"> 🚀 Ecoleta: Aplicação desenvolvida na primeira Next Level Week feita pela Rocketseat.
 
+<p align="center">
+  <a aria-label="Prando" href="https://github.com/gprando/">
+    <img src="https://img.shields.io/github/followers/gprando?style=social"></img>
+  </a>
+    <img src="https://img.shields.io/github/last-commit/gprando/NLW_1"></img>
+    <img src="https://img.shields.io/github/languages/count/gprando/NLW_1"></img>
+</p>
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
