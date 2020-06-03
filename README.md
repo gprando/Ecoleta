@@ -26,7 +26,7 @@ Ecoleta é um projeto onde facilita a informação de pontos de coleta de rísid
 
 ## Getting started
 
-<h1 align="center"><img align="center" src="" alt="Ecoleta Web" width="700"></img></h1>
+<h1 align="center"><img align="center" src="./frontend/src/assets/ecoleta.png" alt="Ecoleta Web"  width="300"></img></h1>
 
 ### Instalação - Backend
 Clone o projeto em seu computador.
