@@ -148,7 +148,8 @@
 #page-create-point form button {
   width: 260px;
   height: 56px;
-  background: var(--primary-color);
+
+  background: #34CB79;
   border-radius: 8px;
   color: #FFF;
   font-weight: bold;
