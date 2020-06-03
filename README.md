@@ -54,8 +54,25 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 ....
 
 ### Insomnia 
-Para testar a API do Ecoleta, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
+Para testar a API do Ecoleta, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique no botão a baixo para importar o workspace.
 
-## Licença
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fgprando%2FNLW_1%2Fmaster%2Fbackend%2FInsomnia.json%3Ftoken%3DAL5YELH3YXHGUAUAVYKK33264EYSO)
+  
+
+## 🤔 Como contribuir
+
+Se quiser contribuir para esse repositório aqui, seja corrigindo algum problema, adicionando comentários ou melhorando a documentação, você pode seguir esse tutorial abaixo:
+
+- Faça [um fork](https://help.github.com/pt/github/getting-started-with-github/fork-a-repo) desse repositório;
+- Entre no seu perfil no GitHub e faça um clone do repositório que você fez um *fork*;
+- Crie uma *branch* com a sua alteração: `git checkout -b minha-alteracao`;
+- Faça as alterações necessárias no código ou na documentação;
+- Faça *commit* das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça *push* para a sua *branch*: `git push origin minha-alteracao`;
+- Agora é só abrir a sua *pull request* no repositório que você fez o *fork*;
+
+Depois que o *merge* da sua *pull request* for feito, você pode deletar a sua *branch*.
+
+## :memo: Licença
 
 Esse projeto é licensiado pela MIT License - Veja a página da [licença](https://opensource.org/licenses/MIT) para detalhes
