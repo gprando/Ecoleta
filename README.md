@@ -60,7 +60,20 @@ yarn start
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.  
 
 ### Mobile
-....
+
+* Precisará ter instalado em seu celular o app expo.  
+
+Para iniciar o **Mobile** do React-Native utilize os comandos:
+
+```bash
+cd mobile
+yarn 
+yarn start
+```
+Abra a app Expo e leia o qr code do app.
+
+<h1 align="center"><img align="center" src="./mobile/src/assets/mobile.jpg" alt="Ecoleta Mobile"  width="280"></img></h1>
+
 
 ### Insomnia 
 Para testar a API do Ecoleta, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique no botão a baixo para importar o workspace.
