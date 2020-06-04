@@ -49,6 +49,11 @@ cd backend
 yarn 
 yarn dev
 ```
+### Insomnia 
+Para testar a API do Ecoleta, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique no botão a baixo para importar o workspace.
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fgprando%2FNLW_1%2Fmaster%2Fbackend%2FInsomnia.json%3Ftoken%3DAL5YELH3YXHGUAUAVYKK33264EYSO)
+  
 
 ### Frontend
 Para iniciar o **Frontend** do React utilize os comandos:
@@ -75,11 +80,6 @@ Abra a app Expo e leia o qr code do app.
 <h1 align="center"><img align="center" src="./mobile/src/assets/mobile.jpg" alt="Ecoleta Mobile"  width="280"></img></h1>
 
 
-### Insomnia 
-Para testar a API do Ecoleta, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique no botão a baixo para importar o workspace.
-
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fgprando%2FNLW_1%2Fmaster%2Fbackend%2FInsomnia.json%3Ftoken%3DAL5YELH3YXHGUAUAVYKK33264EYSO)
-  
 
 ## 🤔 Como contribuir
 
